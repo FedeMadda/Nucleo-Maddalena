@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Núcleo Ortopédico es una guía de proveedores para ortopedias de distribución gratuita en Argentina, Chile, Uruguay y Paraguay.">
+    <meta name="keywords" content="ORTOPEDIA, NUCLEO, PROVEEDOR ORTOPEDIA, PROVEEDORES, REVISTA, NOTICIAS, NOTAS, INFORMACION, INFO">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="../Imgs/Logos/LogoN.png">
+    <link rel="stylesheet"   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"   crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Núcleo - Suscripción</title>
+</head>
+<body>
+    <header>
+        <div class="logoCompleto animate__animated animate__slideInDown animate__delay-500ms">
+            <a href="../index.html"><img src="../Imgs/Logos/LogoCompleto.png" alt="Logo Completo" height="140px"></a>
+        </div>
+        <nav class="animate__animated animate__fadeIn animate__delay-500ms navbar navbar-expand-lg" style="background-color:#d5f7fd;">
+            <div class="container-fluid">
+                <a class="logoNNav navbar-brand" href="../index.html"><img src="../Imgs/Logos/LogoNucleo.png" alt="logoNNav" width="auto" height="40"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link fs-5 mx-3" href="../index.html">Inicio</a>
+                    <a class="nav-link fs-5 mx-3" href="quienesSomos.html">Quiénes somos</a>
+                    <a class="nav-link fs-5 mx-3" href="http://nucleo-ortopedico.com.ar/inicio/digital/index-h5.html?page=1#page=1" target="_blank">Última edición</a>
+                    <a class="nav-link fs-5 mx-3" href="../index.html#edAnts">Ediciones anteriores</a>
+                    <a class="nav-link active fs-5 mx-3" style="color: #620080;" href="suscripcion.html"><b>Suscripción</b></a>
+                    <a class="nav-link fs-5 mx-3" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <div class="susc container-fluid">
+            <h1><img src="../Imgs/Icons/suscripcion.svg" alt="suscripcionIcon"  width="80px"><b> Suscripción</b></h1>
+            <p><h5>Si desea recibir la próxima edición por favor complete el siguiente  formulario:</h5></p>
+        </div>
+        <form class="suscTodo row g-3">
+            <div class="col-6">
+            <label for="ortopedia" class="form-label">Ortopedia / Institución</label>
+            <input type="text" class="form-control" id="suscOrtopedia" placeholder="*">
+            </div>
+            <div class="col-6">
+                <label for="rubro" class="form-label">Rubro</label>
+                <input type="text" class="form-control" id="suscRubro" placeholder="*">
+            </div>
+            <div class="col-6">
+                <label for="nombre" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="suscNombre" placeholder="*">
+            </div>
+            <div class="col-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="suscEmail" placeholder="*">
+            </div>
+            <div class="col-6">
+                <label for="telefono" class="form-label">Teléfono / Celular</label>
+                <input type="tel" class="form-control" id="contactoTelefono" placeholder="*">
+            </div>
+            <div class="col-6">
+                <label for="pais" class="form-label">País</label>
+                <input type="text" class="form-control" id="suscPais" placeholder="*">
+            </div>
+            <div class="domicilio col-6">
+                <label for="domicilio" class="form-label">Domicilio</label>
+                <input type="text" class="form-control" id="suscDomicilio" placeholder="*">
+            </div>
+            <div class="piso col-3">
+                <label for="piso" class="form-label">Piso/Depto</label>
+                <input type="text" class="form-control" id="suscPiso">
+            </div>
+            <div class="cp col-3">
+                <label for="codigoPostal" class="form-label">C. P.</label>
+                <input type="number" class="form-control" id="suscCodigoPostal">
+            </div>
+            <div class="col-6">
+                <label for="provincia" class="form-label">Provincia</label>
+                <input type="text" class="form-control" id="suscProvincia" placeholder="*">
+            </div>
+            <div class="col-6">
+                <label for="localidad" class="form-label">Localidad</label>
+                <input type="text" class="form-control" id="suscLocalidad" placeholder="*">
+            </div>
+            <div class="mb-3">
+                <label for="consulta" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="contactoConsulta" rows="3"></textarea>
+            </div>
+            <div class="enviar col-12">
+              <button type="submit" class="btn btn-primary btn-lg" style="background-color: #620080; border: #620080">Enviar</button>
+            </div>
+          </form>
+    </main>
+    <footer>
+        <h5>Núcleo Ortopédico © 2015 ∙ Todos los derechos reservados.</h5>
+    </footer>
+</body>
+</html>

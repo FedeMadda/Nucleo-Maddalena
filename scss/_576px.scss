@@ -1,0 +1,65 @@
+@media (max-width: 576px) {
+    .logoCompleto{
+        display: none;
+    }
+    .logoNNav{
+        display: flex;
+    }
+    .contenedor{
+        margin: 5px auto;
+    }
+    .inicio{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, auto) 650px;
+        .asides{
+            grid-column: 1/4;
+            grid-row: 1/2;
+            margin-bottom: 30px;
+        }
+        .ultEdicion{
+            grid-column: 1/4;
+            grid-row: 2/3;
+        }
+        .edAnteriores{
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+        .tapasAnts{
+            grid-column: 1/4;
+            grid-row: 4/5;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 10px;
+            overflow: auto;
+        }
+    }
+    .quienesSomos__imgLogoGrande{
+        display: none;
+    }
+    .quienesIcon{
+        @include centrarflex;        
+    }
+    .t40qs{
+        display: none;
+    }
+    .t35qs{
+        width: 85%;
+        padding: 20px;
+    }
+    .quienesSomos__imgLogo{
+        background-color: #d5f7fd;
+    }
+    .quienesSomos__txt1 , .quienesSomos__txt2 , .quienesSomos__imgLogo , .quienesSomos__Tapas{
+        padding: 20px;
+    }
+    
+    .susc , .cont{
+        text-align:  center;
+    }
+    .enviar{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

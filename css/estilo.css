@@ -1,0 +1,295 @@
+main {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 95%;
+  max-width: 1200px;
+  margin: 20px auto; }
+  main .contenedor {
+    width: 100%; }
+  main .suscTodo, main .contenedorContacto {
+    background-image: url(../Imgs/Logos/fondoColor.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main .asides {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%; }
+    main .asides .redesInicio {
+      text-decoration: none;
+      color: #620080;
+      border: solid 2px #620080;
+      border-radius: 10px;
+      width: 100%;
+      text-align: center;
+      padding-top: 10px;
+      margin-top: auto;
+      margin-bottom: auto;
+      border: 0; }
+      main .asides .redesInicio .redesImgs {
+        display: flex;
+        justify-content: space-evenly; }
+    main .asides .edDigital, main .asides .suscInicio {
+      text-decoration: none;
+      color: #620080;
+      border: solid 2px #620080;
+      border-radius: 10px;
+      width: 100%;
+      text-align: center;
+      padding-top: 10px;
+      margin-top: auto;
+      margin-bottom: auto; }
+      main .asides .edDigital a, main .asides .suscInicio a {
+        transition: all 200ms;
+        text-decoration: none;
+        color: #620080; }
+        main .asides .edDigital a:hover, main .asides .suscInicio a:hover {
+          color: #2aaffc; }
+  main .edAnteriores {
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #620080; }
+  main .tapasAnts {
+    background-image: url(../Imgs/Logos/fondoColor.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  main .QuienesSomos {
+    background-color: #fbf0ff;
+    line-height: 1.6;
+    text-align: center; }
+    main .QuienesSomos h3, main .QuienesSomos b {
+      color: #620080; }
+    main .QuienesSomos .quienesSomos__txt1 {
+      background-color: #d5f7fd; }
+    main .QuienesSomos .quienesSomos__Tapas {
+      background-color: #d5f7fd; }
+  main h1 {
+    color: #620080; }
+
+@media (max-width: 576px) {
+  .logoCompleto {
+    display: none; }
+  .logoNNav {
+    display: flex; }
+  .contenedor {
+    margin: 5px auto; }
+  .inicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto) 650px; }
+    .inicio .asides {
+      grid-column: 1/4;
+      grid-row: 1/2;
+      margin-bottom: 30px; }
+    .inicio .ultEdicion {
+      grid-column: 1/4;
+      grid-row: 2/3; }
+    .inicio .edAnteriores {
+      grid-column: 1/4;
+      grid-row: 3/4; }
+    .inicio .tapasAnts {
+      grid-column: 1/4;
+      grid-row: 4/5;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 10px;
+      overflow: auto; }
+  .quienesSomos__imgLogoGrande {
+    display: none; }
+  .quienesIcon {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+  .t40qs {
+    display: none; }
+  .t35qs {
+    width: 85%;
+    padding: 20px; }
+  .quienesSomos__imgLogo {
+    background-color: #d5f7fd; }
+  .quienesSomos__txt1, .quienesSomos__txt2, .quienesSomos__imgLogo, .quienesSomos__Tapas {
+    padding: 20px; }
+  .susc, .cont {
+    text-align: center; }
+  .enviar {
+    display: flex;
+    justify-content: space-evenly; } }
+
+@media (max-width: 992px) and (min-width: 577px) {
+  .logoNNav {
+    display: none; }
+  .logoCompleto {
+    margin: 0;
+    display: flex;
+    justify-content: center; }
+  .contenedor {
+    margin: 5px auto; }
+  .inicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto) 700px; }
+    .inicio .asides {
+      grid-column: 1/4;
+      grid-row: 1/2;
+      margin-bottom: 30px; }
+    .inicio .ultEdicion {
+      grid-column: 1/4;
+      grid-row: 2/3; }
+    .inicio .edAnteriores {
+      grid-column: 1/4;
+      grid-row: 3/4; }
+    .inicio .tapasAnts {
+      grid-column: 1/4;
+      grid-row: 4/5;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 10px;
+      overflow: auto; }
+  .QuienesSomos {
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: repeat(4, 1fr); }
+    .QuienesSomos .quienesSomos__imgLogoGrande {
+      display: none; }
+    .QuienesSomos .quienesSomos__imgLogo {
+      grid-row: 1/2;
+      grid-column: 3/5;
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+    .QuienesSomos .quienesSomos__txt1 {
+      grid-row: 1/2;
+      grid-column: 1/3;
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+    .QuienesSomos .quienesSomos__txt2 {
+      grid-row: 2/3;
+      grid-column: 3/5;
+      padding: 10px;
+      align-items: center; }
+    .QuienesSomos .quienesSomos__Tapas {
+      grid-row: 2/3;
+      grid-column: 1/3;
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .QuienesSomos .quienesSomos__Tapas img {
+        width: 80%; } }
+
+@media (min-width: 993px) {
+  .logoNNav {
+    display: none; }
+  .logoCompleto {
+    margin-left: 27%; }
+  .contenedor {
+    margin: 5px auto; }
+  .inicio {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px 20px;
+    max-width: 1100px; }
+    .inicio .ultEdicion {
+      grid-column: 1/4;
+      grid-row: 1/2; }
+    .inicio .asides {
+      grid-column: 4/6;
+      grid-row: 1/2; }
+    .inicio .edAnteriores {
+      grid-column: 1/6;
+      grid-row: 2/3;
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+    .inicio .tapasAnts {
+      grid-column: 1/6;
+      grid-row: 3/4;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px; }
+  .QuienesSomos {
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: repeat(4, 1fr); }
+    .QuienesSomos .quienesSomos__imgLogo {
+      display: none; }
+    .QuienesSomos .quienesSomos__imgLogoGrande {
+      grid-row: 1/2;
+      grid-column: 3/5;
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+    .QuienesSomos .quienesSomos__txt1 {
+      grid-row: 1/2;
+      grid-column: 1/3;
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: larger; }
+    .QuienesSomos .quienesSomos__txt2 {
+      grid-row: 2/3;
+      grid-column: 3/5;
+      padding: 10px;
+      align-items: center;
+      font-size: larger; }
+    .QuienesSomos .quienesSomos__Tapas {
+      grid-row: 2/3;
+      grid-column: 1/3;
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .QuienesSomos .quienesSomos__Tapas .t40qs {
+        display: none; }
+      .QuienesSomos .quienesSomos__Tapas img {
+        width: 90%; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px; }
+
+header {
+  grid-column: 1/2;
+  grid-row: 1/2; }
+
+footer {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  text-align: center;
+  background-color: gray;
+  color: #ffffff; }

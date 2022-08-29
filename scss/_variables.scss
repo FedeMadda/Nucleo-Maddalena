@@ -1,0 +1,25 @@
+$violeta: #620080;
+$hover: #2aaffc;
+$celeste: #d5f7fd;
+$rosa: #fbf0ff;
+$blanco:  #ffffff;
+
+@mixin cajas ($violeta){
+    text-decoration: none;
+    color: $violeta;
+    border: solid 2px $violeta;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@mixin centrarflex {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

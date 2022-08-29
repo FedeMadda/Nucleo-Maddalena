@@ -1,0 +1,69 @@
+main{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+    .contenedor{
+        width: 100%;
+    }
+    .suscTodo , .contenedorContacto{
+        background-image: url(../Imgs/Logos/fondoColor.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .asides{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        .redesInicio{
+            @include cajas ($violeta);
+            border: 0;
+            .redesImgs{
+            display: flex;
+            justify-content: space-evenly;
+            }
+        }
+        .edDigital , .suscInicio{
+            @include cajas ($violeta);
+            a{
+                transition:all 200ms;
+                text-decoration: none;
+                color: $violeta;
+                &:hover{
+                    color: $hover;
+                    }
+            }
+        }
+    }
+    .edAnteriores{
+        @include cajas ($blanco);
+        background-color: $violeta;
+    }
+    .tapasAnts{
+            background-image: url(../Imgs/Logos/fondoColor.jpg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    .QuienesSomos{
+        background-color: $rosa;
+        line-height: 1.6;
+        text-align: center;
+        h3,b{
+            color: $violeta;
+        }
+        .quienesSomos__txt1{
+            background-color: $celeste;
+        }
+        .quienesSomos__Tapas{
+            background-color: $celeste;
+        }
+    }
+    h1{
+        color: $violeta;
+    }
+}
