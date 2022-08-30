@@ -30,6 +30,9 @@ main {
       main .asides .redesInicio .redesImgs {
         display: flex;
         justify-content: space-evenly; }
+        main .asides .redesInicio .redesImgs img:hover {
+          transform: scale(1.1, 1.1);
+          transition: all 400ms; }
     main .asides .edDigital, main .asides .suscInicio {
       text-decoration: none;
       color: #620080;

@@ -24,6 +24,10 @@ main{
             .redesImgs{
             display: flex;
             justify-content: space-evenly;
+                img:hover{
+                    transform: scale(1.1,1.1);
+                    transition:all 400ms;
+            }
             }
         }
         .edDigital , .suscInicio{
