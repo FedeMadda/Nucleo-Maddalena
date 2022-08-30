@@ -48,6 +48,16 @@ main{
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
+            .card {
+                box-shadow: 0 4px 8px 0 #00000033;
+                transition: 0.3s;
+                &:hover{
+                    box-shadow: 0 8px 18px 0 #00000033;
+                }
+            }
+            img{
+                border-radius: 5px;
+            }
         }
     .QuienesSomos{
         background-color: $rosa;

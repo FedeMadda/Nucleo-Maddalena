@@ -62,6 +62,13 @@ main {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
+    main .tapasAnts .card {
+      box-shadow: 0 4px 8px 0 #00000033;
+      transition: 0.3s; }
+      main .tapasAnts .card:hover {
+        box-shadow: 0 8px 18px 0 #00000033; }
+    main .tapasAnts img {
+      border-radius: 5px; }
   main .QuienesSomos {
     background-color: #fbf0ff;
     line-height: 1.6;
