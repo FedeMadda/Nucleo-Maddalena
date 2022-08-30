@@ -39,13 +39,24 @@ main {
       text-align: center;
       padding-top: 10px;
       margin-top: auto;
-      margin-bottom: auto; }
+      margin-bottom: auto;
+      box-shadow: 0 4px 8px 0 #00000033;
+      transition: 0.3s; }
+      main .asides .edDigital:hover, main .asides .suscInicio:hover {
+        box-shadow: 0 10px 14px 0 #00000049; }
       main .asides .edDigital a, main .asides .suscInicio a {
         transition: all 200ms;
         text-decoration: none;
         color: #620080; }
         main .asides .edDigital a:hover, main .asides .suscInicio a:hover {
           color: #2aaffc; }
+  main .ultEdicion .card {
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s; }
+    main .ultEdicion .card:hover {
+      box-shadow: 0 16px 24px 0 #00000049; }
+  main .ultEdicion img {
+    border-radius: 5px; }
   main .edAnteriores {
     text-decoration: none;
     color: #ffffff;
@@ -66,9 +77,15 @@ main {
       box-shadow: 0 4px 8px 0 #00000033;
       transition: 0.3s; }
       main .tapasAnts .card:hover {
-        box-shadow: 0 8px 18px 0 #00000033; }
+        box-shadow: 0 8px 18px 0 #00000049; }
     main .tapasAnts img {
       border-radius: 5px; }
+    main .tapasAnts h5 {
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align: center; }
   main .QuienesSomos {
     background-color: #fbf0ff;
     line-height: 1.6;
